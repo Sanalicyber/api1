@@ -10,7 +10,7 @@ app.use(bodyPars.urlencoded({extended: true}))
 app.use(bodyPars.json())
 
 app.post('/', (req, res) => {
-    res.send(version)
+    res.send("version:1.0.0")
 })
 
 app.get('/', (req, res) => {
