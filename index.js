@@ -14,7 +14,7 @@ app.post('/', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html')
+    res.sendFile(version)
 })
 
 app.listen(process.env.PORT || 3000, () => {
