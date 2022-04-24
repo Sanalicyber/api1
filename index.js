@@ -9,7 +9,7 @@ var app = express();
 app.use(bodyPars.urlencoded({extended: true}))
 app.use(bodyPars.json())
 
-app.post('/api/version', (req, res) => {
+app.post('/', (req, res) => {
     res.send(version)
 })
 
