@@ -14,7 +14,7 @@ app.post('/', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.sendFile(version)
+    res.sendFile("1.0")
 })
 
 app.listen(process.env.PORT || 3000, () => {
